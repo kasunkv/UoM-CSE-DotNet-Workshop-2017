@@ -96,3 +96,24 @@ First you need to add a *Label* to the MainForm of the application. Seach for *L
 Look at the screenshot below to see where to place the *Label*
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/9.png)
+
+> **Tip:**
+> You can also *Search* for any UI element in the toolbox using the Seach box on the top of the toolbox.
+
+After droping the label on to the *MainForm* change the `Text` Property of the *Label* from the *Properties Window* to *First name*. Now you can see the label has the First name text applied to it. Look at the screenshot below.
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/10.png)
+
+Then you need to add a `TextBox` to enter the First name. Search for *TextBox* in the *Properties Window* and drag and drop the `TextBox` on to the MainForm. You can resize it if you want. 
+
+Next you need to change the **Name** Property of the `TextBox`. This *Name* property is used to get a reference (or to access the TextBox) from the C# code behind the MainForm. You will see this later.
+
+Select the `TextBox` and Change the `Name` to *tbxFirstName* in the Properties Window. See the screenshot below.
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/11.png)
+
+Now, add one more `Label` and a `TextiBox` to the MainForm for the Last name. Change the `Label` *Text* to *Last name* and change the *Name* of the `TextBox` to *tbxLastName*. 
+
+You should get something similar to the below screenshot.
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/12.png)
