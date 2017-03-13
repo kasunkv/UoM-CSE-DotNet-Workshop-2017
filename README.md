@@ -1,13 +1,17 @@
-# .Net Workshop | University of Moratuwa - CSE | Setup Guide
+# .Net Workshop 2017 | University of Moratuwa - CSE 
+
+The following documentation contains the information about the prerequisites for the *.Net Workshop 2017* and the Step-by-Step Guide to start developing the sample application that will be completed during the workshop. The students are required to Install the software and the tools mentioned in the **Prerequisites** section and Follow the **Step-by-Step Guideline** given below to partially complete the example application.
 
 ## Prerequisites
 You must install the following software before the .Net Workshop
+
 * Visual Studio 2015 Community Edition - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=48146)
+
 
 
 ## Example Project
 
-We will use an example project through out the .Net Workshop to explain the concepts and the techniques. It's is a **mandatory** that you have the required software packages installed on your personal computers and follow the **Step-by-Step Guide** found bellow to start creating the example project. 
+We will use an example project through out the .Net Workshop to explain the concepts and the techniques. It's is **mandatory** that you have the required software packages installed on your personal computers and follow the **Step-by-Step Guide** found bellow to start creating the example project. 
 
 **You must:**
 > complete the Example Project up to the point described in the Step-by-Step Guide to successfully follow along with the .Net Workshop agenda.
@@ -226,7 +230,7 @@ After sometime, the application will start and you can try entering values to th
 
 Click on the Close button and see that the application exits and you should exit out of the *Debug* mode (Which, will be explained later).
 
-### Congratulations, You have completed the Student Registration Application to a certain point. 
+### Congratulations, You have completed the Student Registration Application up to this point. 
 
 ### Please note that you are REQUIRED to complete the application to this point before you come to the .Net Workshop.
 
