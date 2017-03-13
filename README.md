@@ -16,7 +16,7 @@ We will use an example project through out the .Net Workshop to explain the conc
 
 # Step-by-Step Guide | Student Registration Application
 
-## Step 01
+## Step 01 - Creating The Application
 
 Open Visual Studio 2015 Community Edition from the Start Menu or the Desktop Shortcut. Then, click on `File > New > Project` Menu Item. You will see the *New Project* dialog box where you can create a new Visual Studio Project.
 
@@ -36,7 +36,7 @@ Click **OK** and create the project. After the project is created you will be pr
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/2.png)
 
-## Step 02
+## Step 02 - Rename The Default Form
 
 You can see the project structure on the *Solution Explorer* on the right hand side and `Form1.cs` file open in the left hand side of Visual Studio. Let's rename this Form1.cs file to a more meaning full name.
 
@@ -55,7 +55,7 @@ Now your screen should look something like this.
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/5.png)
 
 
-## Step 03
+## Step 03 - Change Properties Of The MainForm
 
 It's time to change some properties of the `MainFrom` or the Student Registration Application we are building. For this you need to select the MainForm on the designer, and then on the menu bar click on `View > Properties Window` to get the *Properties* window. See the screenshot below.
 
@@ -80,7 +80,7 @@ See the screenshot below, You can see the Text Property of the MainForm is chang
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/7.png)
 
 
-## Step 04
+## Step 04 - Add Initial User Interface Elements
 
 It's time to add some User Interface elements to the *MainForm* of our application. To do that we need to open up the **Toolbox Windows** that contains all the User Interface elements supported for Windows Forms Application.
 
@@ -119,7 +119,7 @@ You should get something similar to the below screenshot.
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/12.png)
 
 
-## Step 05
+## Step 05 - Complete The Application User Interface
 
 You need to add some more UI elements to the MainForm of our application.
 
@@ -177,7 +177,7 @@ See the screenshot below,
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/16.png)
 
 
-## Step 06
+## Step 06 - Add The Code To Close The Application.
 
 You are done with the changes to the MainForm in terms of the User Interface Elements. Now let's add a little bit of code to the application and **Run** the application to see everything is working properly.
 
@@ -209,7 +209,7 @@ private void btnClose_Click(object sender, EventArgs e)
 ```
 
 
-## Step 07
+## Step 07 - Run The Application
 
 It's time to **Run** the application for the first time.
 
