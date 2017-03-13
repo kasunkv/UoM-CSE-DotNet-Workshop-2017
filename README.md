@@ -1,8 +1,8 @@
 # .Net Workshop | University of Moratuwa - CSE | Setup Guide
 
-## Prerequisits
+## Prerequisites
 You must install the following software before the .Net Workshop
-* Visaul Studio 2015 Community Edition - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=48146)
+* Visual Studio 2015 Community Edition - [Download](https://www.microsoft.com/en-us/download/details.aspx?id=48146)
 
 
 ## Example Project
@@ -42,7 +42,7 @@ You can see the project structure on the *Solution Explorer* on the right hand s
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/3.png)
 
-`Right Click` on the Form1.cs file on the Solution Expolrer and select `Rename` on the menu that pops up. Then Rename `Form1.cs` to `MainForm.cs` and press Enter. You will be presented with a message box informing you about updating the references according to the filename change. See the image bellow
+`Right Click` on the Form1.cs file on the Solution Explorer and select `Rename` on the menu that pops up. Then Rename `Form1.cs` to `MainForm.cs` and press Enter. You will be presented with a message box informing you about updating the references according to the filename change. See the image bellow
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/4.png)
 
@@ -73,7 +73,7 @@ In the *Properties Window* you need to change the following Properties, to the g
 * **FormBorderStyle** - *FixedSingle*
 
 >**Tip:**
->You can click on the property name in the *Properties Window* to see a small discription of what that specific Property does.
+>You can click on the property name in the *Properties Window* to see a small description of what that specific Property does.
 
 See the screenshot below, You can see the Text Property of the MainForm is changed to *Student Registration*
 
@@ -82,7 +82,7 @@ See the screenshot below, You can see the Text Property of the MainForm is chang
 
 ## Step 04
 
-It's time to add some User Interface elements to the *MainForm* of our application. To do that we need to open up the **Toolbox Windows** that constains all the User Interface elements supported for Windows Forms Application.
+It's time to add some User Interface elements to the *MainForm* of our application. To do that we need to open up the **Toolbox Windows** that contains all the User Interface elements supported for Windows Forms Application.
 
 To bring up the *Toolbox* Windows, like we did for the Properties Window, on the Menu bar, click on `View > Toolbox` menu item. You will see a Toolbox Window pop up on the Visual Studio IDE.
 
@@ -91,16 +91,16 @@ To bring up the *Toolbox* Windows, like we did for the Properties Window, on the
 > **Tip:**
 > You can also press `Ctrl + W` and then `Ctrl + X` keyboard combination to bring up the Properties Window
 
-First you need to add a *Label* to the MainForm of the application. Seach for *Label* in the Toolbox by scrolling up/down and `Click and Drag` a Label on to the MainForm to place the label on the Form. You can drag and drop any where you like. 
+First you need to add a *Label* to the MainForm of the application. Search for *Label* in the Toolbox by scrolling up/down and `Click and Drag` a Label on to the MainForm to place the label on the Form. You can drag and drop any where you like. 
 
 Look at the screenshot below to see where to place the *Label*
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/9.png)
 
 > **Tip:**
-> You can also *Search* for any UI element in the toolbox using the Seach box on the top of the toolbox.
+> You can also *Search* for any UI element in the toolbox using the Search box on the top of the toolbox.
 
-After droping the label on to the *MainForm* change the `Text` Property of the *Label* from the *Properties Window* to *First name*. Now you can see the label has the First name text applied to it. Look at the screenshot below.
+After dropping the label on to the *MainForm* change the `Text` Property of the *Label* from the *Properties Window* to *First name*. Now you can see the label has the First name text applied to it. Look at the screenshot below.
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/10.png)
 
@@ -112,7 +112,7 @@ Select the `TextBox` and Change the `Name` to *tbxFirstName* in the Properties W
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/11.png)
 
-Now, add one more `Label` and a `TextiBox` to the MainForm for the Last name. Change the `Label` *Text* to *Last name* and change the *Name* of the `TextBox` to *tbxLastName*. 
+Now, add one more `Label` and a `TextBox` to the MainForm for the Last name. Change the `Label` *Text* to *Last name* and change the *Name* of the `TextBox` to *tbxLastName*. 
 
 You should get something similar to the below screenshot.
 
@@ -128,7 +128,7 @@ First we need to add a `Button` to the MainForm to Add the Student details to a 
 >**Tip:**
 >You can resize the `Button` by *hovering over the corner of the `Button` and click and dragging the corners*
 
-You need to change 2 *Properties* of the `Button`. The *Text* of the `Button` to change what the `Button` displayes and the *Name* of the `Button` to get a reference to it from the code behind.
+You need to change 2 *Properties* of the `Button`. The *Text* of the `Button` to change what the `Button` displays and the *Name* of the `Button` to get a reference to it from the code behind.
 
 Change the following properties to their corresponding values.
 
@@ -142,7 +142,7 @@ See the screenshot below, You can see the *Text* of the `Button` is changed to *
 
 Now it's time to add the List to display the names of the registered students. You need to add a `ListBox` for this.
 
-Search for `ListBox` in the *Toolbox* window and drag and drop it on the MainForm. You can hower over the corners of the `ListBox` click and drag to resize the `ListBox`.
+Search for `ListBox` in the *Toolbox* window and drag and drop it on the MainForm. You can hover over the corners of the `ListBox` click and drag to resize the `ListBox`.
 
 Change the *Name* Property of the `ListBox` from the Properties Window to get a reference to the `ListBox` from the code behind. Look at the screenshot below.
 
@@ -179,7 +179,7 @@ See the screenshot below,
 
 ## Step 06
 
-You are done with the changes to the MainForm in terms of the User Interface Elements. Now let's add a little bit of code to the application and **Run** the application to see eveything is working properly.
+You are done with the changes to the MainForm in terms of the User Interface Elements. Now let's add a little bit of code to the application and **Run** the application to see everything is working properly.
 
 Let's add code to close the application when you click on the *Close* `Button`. **Double Click** on the *Close* `Button` and you will be take to the *MainForm.cs* code View. This is the **Code Behind** file mentioned earlier. You can see that you are inside a method called `btnClose_Click`
 
@@ -217,7 +217,7 @@ To *Run* the application, Click on the **Start** button on the Toolbar above wit
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/18.png)
 
-After sometime, the applicaton will start and you can try entering values to the `TextBox` for First and Last names and see. See the screenshot below,
+After sometime, the application will start and you can try entering values to the `TextBox` for First and Last names and see. See the screenshot below,
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/19.png)
 
