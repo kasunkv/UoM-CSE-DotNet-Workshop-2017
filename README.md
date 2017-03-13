@@ -66,11 +66,11 @@ It's time to change some properties of the `MainFrom` or the Student Registratio
 
 In the *Properties Window* you need to change the following Properties, to the given values.
 
-* **Text** - Student Registration
-* **StartPosition** - CenterScreen
-* **ShowIcon** - False
-* **MinimizeBox** - False
-* **FormBorderStyle** - FixedSingle
+* **Text** - *Student Registration*
+* **StartPosition** - *CenterScreen*
+* **ShowIcon** - *False*
+* **MinimizeBox** - *False*
+* **FormBorderStyle** - *FixedSingle*
 
 >**Tip:**
 >You can click on the property name in the *Properties Window* to see a small discription of what that specific Property does.
@@ -117,3 +117,118 @@ Now, add one more `Label` and a `TextiBox` to the MainForm for the Last name. Ch
 You should get something similar to the below screenshot.
 
 ![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/12.png)
+
+
+## Step 05
+
+You need to add some more UI elements to the MainForm of our application.
+
+First we need to add a `Button` to the MainForm to Add the Student details to a List. Search for `Button` on the *Toolbox* and drag and drop it on to the MainForm. 
+
+>**Tip:**
+>You can resize the `Button` by *hovering over the corner of the `Button` and click and dragging the corners*
+
+You need to change 2 *Properties* of the `Button`. The *Text* of the `Button` to change what the `Button` displayes and the *Name* of the `Button` to get a reference to it from the code behind.
+
+Change the following properties to their corresponding values.
+
+* **Text** - *Add Student*
+* **Name** - *btnAdd*
+
+See the screenshot below, You can see the *Text* of the `Button` is changed to *Add Student* and the *Name* of the `Button` is changed to *btnAdd*
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/13.png)
+
+
+Now it's time to add the List to display the names of the registered students. You need to add a `ListBox` for this.
+
+Search for `ListBox` in the *Toolbox* window and drag and drop it on the MainForm. You can hower over the corners of the `ListBox` click and drag to resize the `ListBox`.
+
+Change the *Name* Property of the `ListBox` from the Properties Window to get a reference to the `ListBox` from the code behind. Look at the screenshot below.
+
+Change the following properties to their corresponding values.
+
+* **Name** - *lstStudents*
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/14.png)
+
+Next you need to add 2 more `Button` to the MainForm to complete the User Interface for the Student Registration Application.
+
+Search for `Button` on the *Toolbox*, drag and drop it on to the MainForm. Resize it and Place it where you like. This `Button` is to remove students from the `ListBox`. You need to change 2 Properties on the new `Button`.
+
+Change the following properties to their corresponding values.
+
+* **Text** - *Remove Student*
+* **Name** - *btnRemoveStudents*
+
+See the screenshot below,
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/15.png)
+
+Finally, add a `Button` to close the application. Drag and drip a `Button` to the MainForm. You need to also change 2 Properties on the `Button`
+
+Change the following properties to their corresponding values.
+
+* **Text** - *Close*
+* **Name** - *btnClose*
+
+See the screenshot below,
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/16.png)
+
+
+## Step 06
+
+You are done with the changes to the MainForm in terms of the User Interface Elements. Now let's add a little bit of code to the application and **Run** the application to see eveything is working properly.
+
+Let's add code to close the application when you click on the *Close* `Button`. **Double Click** on the *Close* `Button` and you will be take to the *MainForm.cs* code View. This is the **Code Behind** file mentioned earlier. You can see that you are inside a method called `btnClose_Click`
+
+This is the method associated with the `Click` *event* of the `Button`.
+
+> **Note:**
+> Don't worry, You will get to know more about Events, Code Behind files and many more during the .Net Workshop.
+
+Let's add the code line that closes the application. Type in the following code line inside the `btnClose_Click` method.
+
+```cs
+this.Close();
+```
+
+When you are typing the code, Visual Studio IDE will provide some help to complete the code. See the screenshot below, 
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/17.png)
+
+
+Finally, the method should look something like this,
+
+```cs
+private void btnClose_Click(object sender, EventArgs e)
+{
+    this.Close();
+}
+```
+
+
+## Step 07
+
+It's time to **Run** the application for the first time.
+
+To *Run* the application, Click on the **Start** button on the Toolbar above with the *Green Play* icon. Look at the screenshot below,
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/18.png)
+
+After sometime, the applicaton will start and you can try entering values to the `TextBox` for First and Last names and see. See the screenshot below,
+
+![New Project Dialog](https://github.com/kasunkv/UoM-CSE-DotNet-Workshop-2017/blob/master/Screenshots/19.png)
+
+> **Note**
+> Right now the application does not do anything. But we will complete the application during the workshop.
+
+Click on the Close button and see that the application exits and you should exit out of the *Debug* mode (Which, will be explained later).
+
+### Congratulations, You have completed the Student Registration Application to a certain point. 
+
+### Please note that you are REQUIRED to complete the application to this point before you come to the .Net Workshop.
+
+### The workshop will continue from this point onwards.
+
